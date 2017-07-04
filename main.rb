@@ -20,9 +20,9 @@ while game.game_state do
     else
       puts "Player #{i}: YES! You are correct."
     end
-    puts "P1: #{players[0].life}/3 vs P2: #{players[1].life}/3"
-    i = i + 1
+    i = (i % players.length) +1
     if game.game_state
+      puts "P1: #{players[0].life}/3 vs P2: #{players[1].life}/3"
       puts "----- NEW TURN -----"
     else
       puts "Player #{i} wins with a score of #{players[i - 1].life}/3"

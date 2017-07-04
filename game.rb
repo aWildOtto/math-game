@@ -1,5 +1,7 @@
 class Game
   attr_accessor :game_state
+  attr_accessor :x
+  attr_accessor :y
 
   def initialize ()
     @game_state = true
