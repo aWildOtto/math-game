@@ -6,4 +6,4 @@ Two players take turn to answer simple plus questions. 3 wrong answer == loss
 ## Usage
 Clone the repo
 
-Run """ruby main.rb""" on the directory
+Run `ruby main.rb` on the directory
